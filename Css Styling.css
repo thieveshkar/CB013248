@@ -1,0 +1,1217 @@
+:root{
+    --Brown:rgb(85, 42, 0);
+    --Light-ivory:rgb(245, 245, 245);
+    --Footer-Color:rgb(230, 230, 230);     
+    --Table-Heading:rgb(215, 215, 225);
+    --Table-Content:rgb(220, 220, 220);    
+}
+
+.Home-Page-Body{
+    font-family: Syne; color:var(--Brown);
+    margin: 0;
+    padding: 0;   
+}
+
+
+.Buybutton{
+    font-family: Syne; color: #fdfeea;
+    font-size: 18px;
+    font-weight: bold;
+    background: #552a00;
+    width: 160px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/*Stylings that are realated to the header section of the pages*/
+/*Stylings that are realated to the header section of the pages*/
+/*Stylings that are realated to the header section of the pages*/
+
+
+header{
+    background-color:var(--Light-ivory)
+}
+
+
+/*Stylings that are related to the Navigation Bar of the pages*/
+.Navigation-Bar{
+    position: absolute;
+    top: 15px ;
+    right: 280px;
+}
+.Navigation-Bar ul {
+    list-style: none;
+    background: transparent;
+}
+.Navigation-Bar ul li {
+    display: inline-block;
+    position: relative;
+}
+
+ul li a {
+    font-family: syne; color: var(--Brown);
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+ul li ul.dropdown li {
+    display: block;
+}
+ul li ul.dropdown {
+    width: 100%;
+    position:absolute;
+    display: none;
+    background: var(--Light-ivory);
+}
+ul li:hover ul.dropdown {
+    display: block;
+}
+.Logo-icon{
+    padding-top: 4px;
+    height: 50px;
+    width:45px;
+}
+.Tile-and-logo{
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.Purchse-Button{
+    font-family: Syne; color:var(--Light-ivory);
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    background:var(--Brown);
+    width: 160px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 35px;
+    right: 85px;
+
+}
+
+/*Stylings that are related to the Footer section of the pages*/
+/*Stylings that are related to the Footer section of the pages*/
+/*Stylings that are related to the Footer section of the pages*/
+
+footer{
+    background-color: var(--Footer-Color);
+    font-family: syne; color: var(--Brown);
+    height: 310px;  
+    
+}
+
+.socials-iconi, .socials-iconf, .socials-icont, .socials-iconTT  {
+    height: 25px;
+    width:25px;
+    padding-top:10px;
+}
+.socials-iconi{
+    padding-right: 5px;
+}
+.socials-iconf{
+    padding-right: 5px;
+}
+.socials-icont{
+    padding-right: 5px;
+}
+.Tele-Icon{
+    height: 25px;
+    width:25px;
+
+}
+.contact1{
+    display: flex;
+}
+.Tele-Icon{
+    padding-top: 15px;
+    padding-right:10px ;
+}
+
+
+.Footer-contentt{
+    display: grid;
+    grid-template-columns:40% 40% 10%;
+    grid-template-rows: 20% 20%;
+    justify-content: space-evenly;
+    height: 120px;  
+    
+    
+}
+.Locations-f{
+    grid-column-start: 1;
+}
+.Payment-Icons{
+    padding-top: 10px;
+}
+.Contact-Title{
+    padding-top: 10px;
+    font-weight: bold;
+
+}
+.Social-Title{
+    padding-top: 16px;
+    font-weight: bold;
+}
+
+.Mail-and-Contact{
+    grid-column-start: 2;
+    font-family: syne;  
+}
+
+.Tile-and-logo-Footer{
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+}
+.Logo-icon{
+    padding-top: 11px;
+    height: 40px;
+    width:35px;
+}
+.Footer-Title{
+    color:var(--Brown) ;
+}
+.Colombo-Details{
+    grid-row-start: 1;
+    font-family: syne;
+}
+.Kandy-Details{
+    grid-row-start: 2;
+    font-family: syne;
+    
+}
+.Colombo-Footer{
+    display: flex;
+    flex-direction:row;
+    gap: 5px;
+}
+
+.Location-Icon{
+    grid-row:1;
+    padding-left: 40px;
+    padding-top: 18px;
+}
+.CMB-tItLE{
+    padding-top: 10px;
+    font-weight: bold;
+}
+.Mail-title{
+    padding-top: 10px;
+    font-weight: bold;
+}
+.Location-Icon{
+    height: 25px;
+    width:23px;
+}
+.Colombo-F-Content{
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    padding-left: 40px;
+}
+.Map-link-f{
+    padding-top: 12px;
+    padding-left: 5px;
+}
+
+.Mail{
+    display: flex;
+    flex-direction: row;
+}
+.Mail-Icon{
+    height: 25px;
+    width:23px;
+    padding-top: 10px;
+    padding-right: 5px;
+}
+.Mail-Icon1{
+    height: 25px;
+    width:23px;
+    padding-top: 15px;
+    padding-right: 5px;
+
+}
+.Payments{
+    padding-top: 19px;
+    font-weight: bold;
+
+}
+.CARD-Icons{
+    height: 25px;
+    width:45px;
+    padding-right: 5px;
+}
+.CARD-Icons-American{
+    height: 25px;
+    width: 35px;
+}
+.Payment-Methods{
+    grid-column-start:2;
+    grid-row-start: 2;
+    padding-top:80px ;
+
+}
+.socials{
+    grid-column-start: 3;
+    grid-row-start: 2;
+    padding-top: 84px;
+}
+.Contacts-1{
+    grid-column: 3;
+    grid-row-start: 1;
+}
+.Mail-and-Contact {
+    padding-top: 0; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+footer{
+    background-color:var(--Light-ivory);
+    margin: 0;
+    padding: 0;
+}
+
+.Footercontent{
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% ;
+    justify-content: space-evenly;
+    
+}
+
+.ContactUs{
+   
+}
+.Hours{
+    grid-column-start: 3;
+    grid-template-rows: 1;
+   
+}
+.footerimg{
+    width: 45px;
+    height:50px;
+}
+.footerline{
+    border: 2px solid var(--Brown); /* Border style */
+    margin:0; /* Margin for spacing */
+
+}
+*/
+
+
+.logoandtitle{
+    display: flex;
+    flex-direction: row;
+    
+}
+.logoandtitle{
+    grid-column-start: 1;
+    grid-template-rows: 1;
+}
+
+
+
+
+/*******Stylings that are related to the HOMEPAGE*******/
+/*******Stylings that are related to the HOMEPAGE*******/
+/*******Stylings that are related to the HOMEPAGE*******/
+/*******Stylings that are related to the HOMEPAGE*******/
+/*******Stylings that are related to the HOMEPAGE*******/
+/*******Stylings that are related to the HOMEPAGE*******/
+/*******Stylings that are related to the HOMEPAGE*******/
+/*******Stylings that are related to the HOMEPAGE*******/
+/*******Stylings that are related to the HOMEPAGE*******/
+/*******Stylings that are related to the HOMEPAGE*******/
+/*******Stylings that are related to the HOMEPAGE*******/
+/*******Stylings that are related to the HOMEPAGE*******/
+/*******Stylings that are related to the HOMEPAGE*******/
+/*******Stylings that are related to the HOMEPAGE*******/
+
+
+/*Common Stylings that are related to all sections of Home Page, which are related to their Alignment*/
+/*Common Stylings that are related to all sections of Home Page, which are related to their Alignment*/
+/*Common Stylings that are related to all sections of Home Page, which are related to their Alignment*/
+/*Common Stylings that are related to all sections of Home Page, which are related to their Alignment*/
+
+
+
+.Section-Alignment{
+    width: 95%;
+    margin: auto; /* Center the content horizontally */
+    padding: 10px; /* Add padding */
+}
+
+
+/*Stylings that are realated to the intro section Section*/
+/*Stylings that are realated to the intro section Section*/
+
+
+
+.Intro-Section{
+    background-color: var(--Light-ivory);
+    font-family: Syne; color:var(--Brown);   
+}
+
+h1 {
+    font-size: 30px; 
+}
+
+.Home-page-main-Image{
+    height: 600px;
+    width: 1190px;
+    border-radius: 20px; 
+    display: block;
+    margin: 0 auto;/*check this*/
+    filter: drop-shadow(4px 4px 8px #000000);
+}
+.Intro-Message{
+    padding-top: 15px;
+
+}
+
+
+/*Stylings that are realated to the fresh products Section*/
+/*Stylings that are realated to the fresh products Section*/
+
+
+
+.Fresh-Product-Section{
+    background-color:var(--Light-ivory); 
+}
+.Fresh-Product-Section-line-Seperation {
+    border: 2px solid var(--Brown); /* Border style */
+    margin: 20px 0; /* Margin for spacing */
+}
+.Fresh-Products-Grid{
+    display: grid;  
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20%  20%;
+    justify-content: space-evenly; 
+    padding-left: 50px;
+    padding-bottom: 0px;
+    
+}
+.Appleimg{
+    grid-column-start: 1;
+    grid-row-end: 1;
+    height: 280px;
+    width: 200px;
+    border-radius: 10px;
+    filter: drop-shadow(4px 4px 8px #000000);
+
+}
+.Pepperimg{
+    grid-column-start: 2;
+    grid-template-rows: 1;
+    height: 280px;
+    width: 200px;
+    border-radius: 10px;
+    filter: drop-shadow(4px 4px 8px #000000);
+
+
+}
+.Radishimg{
+    grid-column-start: 3;
+    grid-template-rows: 1;
+    height: 280px;
+    width: 200px;
+    border-radius: 10px;
+    filter: drop-shadow(4px 4px 8px #000000);
+
+}
+.Pomegranatesimg{
+    grid-column-start: 4;
+    grid-template-rows: 1;
+    height: 280px;
+    width: 200px;
+    border-radius: 10px;
+    filter: drop-shadow(4px 4px 8px #000000);
+
+}
+.Apple{
+    grid-column-start: 1;
+    grid-row-end: 2;
+    padding-top: 20px;
+
+}
+.Pepper{
+    grid-column-start: 2;
+    grid-row-end: 2;
+    padding-top: 20px;
+}
+.Radish{
+    grid-column-start: 3;
+    grid-row-end: 2;
+    padding-top: 20px;
+}
+
+.Pomegranates{
+    grid-column-start: 4;
+    grid-row-end: 2;
+    padding-top: 20px;
+}
+
+
+/*Stylings that are realated to the Speciality products Section*/
+/*Stylings that are realated to the Speciality products Section*/
+
+
+
+.Specialty-Food-Section{
+    padding: 0;
+    background-color:var(--Light-ivory);
+    font-family: Syne; color:var(--Brown)
+    
+}
+.Specialty-Foods-Section-line-Seperation{
+    border: 2px var(--Brown) solid; /* Border style */
+    margin: 20px 0; /* Margin for spacing */
+}
+.Specialty-Food-Grid{
+    display: grid;  
+    grid-template-columns: 20% 20% 20% 20% ;
+    grid-template-rows: 20% 20% 20% 20% ;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+.jam{
+    grid-column-start: 1;
+    grid-row-end: 1;
+    height: 200px;
+    width: 275px;
+    border-radius: 10px;
+    filter: drop-shadow(4px 4px 8px #000000);
+
+}
+.cheese{
+    grid-column-start: 2;
+    grid-template-rows: 1;
+    height: 200px;
+    width: 275px;
+    border-radius: 10px;
+    filter: drop-shadow(4px 4px 8px #000000);
+}
+.CHOCOLATE{
+    grid-column-start: 3;
+    grid-template-rows: 1;
+    height: 200px;
+    width: 275px;
+    border-radius: 10px;
+    filter: drop-shadow(4px 4px 8px #000000);
+}
+.oliveoil{
+    grid-column-start: 4;
+    grid-template-rows: 1;
+    height: 200px;
+    width: 275px;
+    border-radius: 10px;
+    filter: drop-shadow(4px 4px 8px #000000);
+}
+
+.content1{
+    grid-column-start: 1;
+    grid-row-end: 2;
+    padding-top: 20px;
+
+}
+.content2{
+    grid-column-start: 2;
+    grid-row-end: 2;
+    padding-top: 20px;
+}
+.content3{
+    grid-column-start: 3;
+    grid-row-end: 2;
+    padding-top: 20px;
+}
+.content4{
+    grid-column-start: 4;
+    grid-row-end: 2;
+    padding-top: 20px;
+}
+
+
+
+/*Stylings that are realated to the Weekly Deal Section*/
+/*Stylings that are realated to the Weekly Deal Section*/
+
+
+
+.Weekly-Deal-Section {
+    background-color:var(--Light-ivory);  
+}
+.Weekly-Deal-Line-Seperation {
+    border: 2px solid var(--Brown); /* Border style */
+    margin: 20px 0; /* Margin for spacing */
+}
+.Pharaimg{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.seafood{
+    display: flex;
+   
+}
+.Listimg{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-between
+}
+.Shrimpimg,.salmonimg, .oysterimg{
+    grid-column-start: 1;
+    height: 300px;
+}
+.salmonlist, .oysterlist,.shrimplist{
+    grid-column-start: 2;
+}
+
+
+
+
+/*******Stylings that are related to the ABOUTPAGE*******/
+/*******Stylings that are related to the ABOUTPAGE*******/
+/*******Stylings that are related to the ABOUTPAGE*******/
+/*******Stylings that are related to the ABOUTPAGE*******/
+/*******Stylings that are related to the ABOUTPAGE*******/
+/*******Stylings that are related to the ABOUTPAGE*******/
+/*******Stylings that are related to the ABOUTPAGE*******/
+/*******Stylings that are related to the ABOUTPAGE*******/
+/*******Stylings that are related to the ABOUTPAGE*******/
+/*******Stylings that are related to the ABOUTPAGE*******/
+/*******Stylings that are related to the ABOUTPAGE*******/
+/*******Stylings that are related to the ABOUTPAGE*******/
+/*******Stylings that are related to the ABOUTPAGE*******/
+/*******Stylings that are related to the ABOUTPAGE*******/
+
+/*Common Stylings that are related to all sections of About Page, which are related to their Alignment*/
+/*Common Stylings that are related to all sections of About Page, which are related to their Alignment*/
+/*Common Stylings that are related to all sections of About Page, which are related to their Alignment*/
+/*Common Stylings that are related to all sections of About Page, which are related to their Alignment*/
+
+.About-Us-Page-Alignment, .Summary-Table-content, .Branch-Images{
+    width: 80%;
+    margin: auto; /* Center the content horizontally */
+    padding: 10px; /* Add padding */
+}
+.Summary-Table-content table th{
+    background-color:var(--Table-Heading);
+}
+.Summary-Table-content table td{
+    background-color:var(--Table-Content);
+}
+
+/*Stylings that are realted to body section of About Us Page*/
+/*Stylings that are realted to body section of About Us Page*/
+
+
+
+.About-Page-Body{
+    background-color: var(--Light-ivory);
+    font-family: Syne; color:var(--Brown);
+    margin: 0;
+    padding: 0;   
+}
+
+/*Stylings that are realted to CMB Branch section of About Us Page*/
+/*Stylings that are realted to CMB Branch section of About Us Page*/
+
+
+
+.Colombo-Branch-Section{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 40% 60%;
+}
+.Colombo-Map-Link{
+    grid-column-start: 1;
+    width:"386";
+    height:"200"; 
+    border: 3px solid var(--Brown);
+}
+.CMB-Branch-Message{
+    grid-column-start: 2;
+    padding-top: 10px;
+}
+
+/*Stylings that are realted to Kandy Branch section of About Us Page*/
+/*Stylings that are realted to Kandy Branch section of About Us Page*/
+
+
+
+.Kandy-Branch-Section{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 40% 60%;
+}
+.Kandy-Map-Link{
+    grid-column-start: 1;
+    width:"386";
+    height:"200"; 
+    border: 3px solid var(--Brown);
+    
+}
+.Kandy-Branch-Message{
+    grid-column-start: 2;
+    padding-top: 10px;
+}
+.Kandy-Branch-Img{
+    width: 850px;
+    height: 550px;
+    display: block;
+    margin: 0 auto;
+}
+.CMB-Branch-Img{
+    display: block;
+    margin: 0 auto;
+}
+
+
+/*Stylings that are realted to Table Content of About Us Page*/
+/*Stylings that are realted to Table Content of About Us Page*/
+
+
+
+.Line-Seperation {
+    border: 2px solid var(--Brown); /* Border style */
+    margin: 20px 0; /* Margin for spacing */
+}
+table {
+    font-family:Syne ;
+    width: 100%;  
+}
+td, th {
+    border: 1px solid var(--Brown);
+    text-align: left;
+    padding: 8px;
+}
+
+/*******Stylings that are related to the DIARY-PRODUCT-PAGE*******/
+/*******Stylings that are related to the DIARY-PRODUCT-PAGE*******/
+/*******Stylings that are related to the DIARY-PRODUCT-PAGE*******/
+/*******Stylings that are related to the DIARY-PRODUCT-PAGE*******/
+/*******Stylings that are related to the DIARY-PRODUCT-PAGE*******/
+/*******Stylings that are related to the DIARY-PRODUCT-PAGE*******/
+/*******Stylings that are related to the DIARY-PRODUCT-PAGE*******/
+/*******Stylings that are related to the DIARY-PRODUCT-PAGE*******/
+/*******Stylings that are related to the DIARY-PRODUCT-PAGE*******/
+/*******Stylings that are related to the DIARY-PRODUCT-PAGE*******/
+/*******Stylings that are related to the DIARY-PRODUCT-PAGE*******/
+/*******Stylings that are related to the DIARY-PRODUCT-PAGE*******/
+/*******Stylings that are related to the DIARY-PRODUCT-PAGE*******/
+/*******Stylings that are related to the DIARY-PRODUCT-PAGE*******/
+
+/*Stylings that are realted to Intro section of Diary Product Page*/
+/*Stylings that are realted to Intro section of Diary Product Page*/
+
+.Diary-Product-Intro-Section{
+    background-color: var(--Light-ivory);
+    margin: 0;
+    padding: 0;  
+    
+}
+.Diary-Product-Main-Img{
+    height: 450px;
+    width: 900px;
+    display: block;
+    margin: 0 auto;
+    filter: drop-shadow(4px 4px 8px #000000);
+}
+
+
+/*Stylings that are realted to Milk section of Diary Product Page*/
+/*Stylings that are realted to Milk section of Diary Product Page*/
+
+
+.Milk-Section{
+    background-color:var(--Light-ivory);
+ }
+.Milk-Heading{
+    padding: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+}
+.Milk-Section-Alignment{
+    width: 80%;
+    margin: auto; /* Center the content horizontally */
+    padding: 10px; /* Add padding */
+    display: flex;
+    flex-direction: row;   
+}
+.Milk-Bottle-Img1, .Milk-Bottle-Img2, .Milk-Bottle-Img3, .Milk-Bottle-Img4{
+    display: flex;
+    flex-direction: column;
+    height: 220px;
+    width: 245px;
+    padding: 20px;
+    filter: drop-shadow(4px 4px 8px #000000);
+}
+.Milk-Phara1, .Milk-Phara2, .Milk-Phara3, .Milk-Phara4{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+.Milk-Phara2, .Milk-Phara3, .Milk-Phara4{
+    padding-top: 110px;
+}
+.Milk-Buybutton{
+    font-family: Syne; color: var(--Light-ivory);
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    background: var(--Brown);
+    width: 160px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/*Stylings that are realted to Curd section of Diary Product Page*/
+/*Stylings that are realted to Curd section of Diary Product Page*/
+
+.Curd-Section{
+    background-color:var(--Light-ivory);
+    font-family: Syne; color:var(--Brown);
+    padding: 0;
+    margin: 0;
+}
+.Curd-Heading{
+    padding: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+}
+.Curd-imgs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Curd-Img{
+    height: 220px;
+    width: 245px;
+    padding: 20px;
+    filter: drop-shadow(4px 4px 8px #000000);
+}
+.Curd-Titles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Curd-Buybutton{
+    font-family: Syne; color: var(--Light-ivory);
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    background: var(--Brown);
+    width: 160px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/*Stylings that are realted to Ghee section of Diary Product Page*/
+/*Stylings that are realted to Ghee section of Diary Product Page*/
+
+.Ghee-Section{
+    background-color:var(--Light-ivory);
+    font-family: Syne; color: var(--Brown);
+}
+.Ghee-Heading{
+    padding: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+}
+.Ghee-Titles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Ghee-Img{
+    height: 220px;
+    width: 245px;
+    padding: 20px;
+    filter: drop-shadow(4px 4px 8px #000000);
+}
+.Ghee-Titles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Ghee-Buybutton{
+    font-family: Syne; color: var(--Light-ivory);
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    background: var(--Brown);
+    width: 160px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+/*******Stylings that are related to the ORDER-PAGE*******/
+/*******Stylings that are related to the ORDER-PAGE*******/
+/*******Stylings that are related to the ORDER-PAGE*******/
+/*******Stylings that are related to the ORDER-PAGE*******/
+/*******Stylings that are related to the ORDER-PAGE*******/
+/*******Stylings that are related to the ORDER-PAGE*******/
+/*******Stylings that are related to the ORDER-PAGE*******/
+/*******Stylings that are related to the ORDER-PAGE*******/
+/*******Stylings that are related to the ORDER-PAGE*******/
+/*******Stylings that are related to the ORDER-PAGE*******/
+/*******Stylings that are related to the ORDER-PAGE*******/
+/*******Stylings that are related to the ORDER-PAGE*******/
+/*******Stylings that are related to the ORDER-PAGE*******/
+/*******Stylings that are related to the ORDER-PAGE*******/
+
+/*Stylings that are related to Intro Section of Order Page*/
+/*Stylings that are related to Intro Section of Order Page*/
+
+
+.Order-Page-Intro-Section{
+    background-image: url(Photos/Background\ Images/Order_Page_Main_img.png);
+    height: 600px; 
+}
+.Prime-Logo-and-Title{
+    display: flex;
+    padding-top: 200px;
+    padding-left: 150px;  
+}
+.Brand-IMG{
+    height: 200px;
+}
+.Brand-Title{
+    font-size: 100px;
+}
+
+
+/*Stylings that are related to Product Selection Section of Order Page*/
+/*Stylings that are related to Product Selection Section of Order Page*/
+
+
+.Product-Selection{
+    background-color:var(--Light-ivory);
+}
+.Selection-Form{
+    width: 80%;
+    margin: auto; /* Center the content horizontally */
+    padding: 10px; /* Add padding */
+}
+.containercenter{
+    width: 50%; 
+    margin: 0 auto; 
+}
+
+.Place-Order-Button{
+    font-family: Syne; color: #fdfeea;
+    font-size: 18px;
+    font-weight: bold;
+    background: #552a00;
+    width: 160px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form{
+    display: grid;
+    grid-template-columns:40% 60% ;   
+}
+label{
+    grid-column-start: 1;
+    font-weight: bold;
+}
+input, select, option{
+    grid-column-start: 2;
+    background-color:transparent;
+    width: 350px;
+    height: 40px;
+    font-weight: bold;
+}
+
+/*******Stylings that are related to the VEGETABLES-PAGE*******/
+/*******Stylings that are related to the VEGETABLES-PAGE*******/
+/*******Stylings that are related to the VEGETABLES-PAGE*******/
+/*******Stylings that are related to the VEGETABLES-PAGE*******/
+/*******Stylings that are related to the VEGETABLES-PAGE*******/
+/*******Stylings that are related to the VEGETABLES-PAGE*******/
+/*******Stylings that are related to the VEGETABLES-PAGE*******/
+/*******Stylings that are related to the VEGETABLES-PAGE*******/
+/*******Stylings that are related to the VEGETABLES-PAGE*******/
+/*******Stylings that are related to the VEGETABLES-PAGE*******/
+/*******Stylings that are related to the VEGETABLES-PAGE*******/
+/*******Stylings that are related to the VEGETABLES-PAGE*******/
+/*******Stylings that are related to the VEGETABLES-PAGE*******/
+/*******Stylings that are related to the VEGETABLES-PAGE*******/
+
+/*Stylings that are related to Exotic Section of Vegetable Page*/
+/*Stylings that are related to Exotic Section of Vegetable Page*/
+
+
+.Exotic-Import-Section{
+    background-color:var(--Light-ivory); 
+}
+.Exotic-Import-Heading{
+    text-decoration: underline;
+}
+.Vegetable-Content-Exotic{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-content: space-evenly;   
+    padding-left: 70px;
+}
+.Thai-Eggplant-Img{
+    grid-column-start: 1;
+    width: 248px;
+    height: 348px; 
+    border-radius: 10px;
+    filter: drop-shadow(4px 4px 8px #000000);
+}
+.Bitter-Melon-Img{
+    grid-column-start: 2;
+    width: 248px;
+    height: 348px; 
+    border-radius: 10px;
+    filter: drop-shadow(4px 4px 8px #000000);
+}
+.Daikon-Radish-Img{
+    grid-column-start: 3;
+    width: 248px;
+    height: 348px; 
+    border-radius: 10px;
+    filter: drop-shadow(4px 4px 8px #000000);
+}
+.Dragon-Img{
+    grid-column-start: 4;
+    width: 248px;
+    height: 348px;
+    border-radius: 10px;
+    filter: drop-shadow(4px 4px 8px #000000);
+}
+.Veg-Content{
+    padding-top: 15px;
+}
+.lettuce-Img, .Totmato-Img, .Carrot-Img{
+    height: 5;
+    width: 300px;
+}
+.Vegetables-Content2{
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    justify-content: center;
+    padding-left: 70px;
+}
+.Broccoli-Img{
+    grid-column-start: 1;  
+    border-radius: 10px;
+    filter: drop-shadow(4px 4px 8px #000000);
+}
+.BellPepper-Img{
+    grid-column-start: 2;  
+    border-radius: 10px;
+    filter: drop-shadow(4px 4px 8px #000000);
+}
+.Cucumbers-Img{
+    grid-column-start: 3;
+    border-radius: 10px;
+    filter: drop-shadow(4px 4px 8px #000000);
+}
+.Broccoli-Img, .BellPepper-Img, .Cucumbers-Img{
+    height: 280px;
+    width: 200px;
+}
+
+
+.Vegetable-Page-Content-line-Seperation {
+    border: 2px solid var(--Brown); /* Border style */
+    margin: 20px 0; /* Margin for spacing */
+}
+
+/*Stylings that are related to Fresh Produce Section of Vegetable Page*/
+/*Stylings that are related to Fresh Produce Section of Vegetable Page*/
+
+
+.Fresh-Produce-Section-Veg{
+    background-color:var(--Light-ivory); 
+}
+.Vegetable-Page-Alignment{
+    width: 95%;
+    margin: auto; /* Center the content horizontally */
+    padding: 10px; /* Add padding */
+}
+.Fresh-Produce-Heading{
+    text-decoration: underline;
+}
+.Vegetable-Content{
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    justify-content: center;   
+    padding-left: 70px;
+}
+.lettuce-Img{
+    grid-column-start: 1;
+    border-radius: 10px;
+    filter: drop-shadow(4px 4px 8px #000000);
+}
+.Totmato-Img{
+    grid-column-start: 2; 
+    border-radius: 10px;
+    filter: drop-shadow(4px 4px 8px #000000);
+}
+.Carrot-Img{
+    grid-column-start: 3;
+    border-radius: 10px;
+    filter: drop-shadow(4px 4px 8px #000000);
+}
+.Veg-Content{
+    padding-top: 15px;
+}
+.lettuce-Img, .Totmato-Img, .Carrot-Img{
+    height: 5;
+    width: 300px;
+}
+.Vegetables-Content2{
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    justify-content: center;
+    padding-left: 70px;
+}
+.Broccoli-Img{
+    grid-column-start: 1;  
+    border-radius: 10px;
+    filter: drop-shadow(4px 4px 8px #000000);
+}
+.BellPepper-Img{
+    grid-column-start: 2;  
+    border-radius: 10px;
+    filter: drop-shadow(4px 4px 8px #000000);
+}
+.Cucumbers-Img{
+    grid-column-start: 3;
+    border-radius: 10px;
+    filter: drop-shadow(4px 4px 8px #000000);
+}
+.Broccoli-Img, .BellPepper-Img, .Cucumbers-Img{
+    height: 280px;
+    width: 200px;
+}
+
+
+/*Stylings that are related to Seasonal Specialties Section of Vegetable Page*/
+/*Stylings that are related to Seasonal Specialties Section of Vegetable Page*/
+
+
+
+.Seasonal-Specialties-Section{
+    background-color:var(--Light-ivory); 
+}
+.Seasonal-Specialties-Heading{
+    text-decoration: underline;
+}
+
+.Seasonal-Content1{
+    padding-top: 20px;  
+    display: grid;
+    grid-template-columns: 20% 70%;
+    justify-content: center;
+    align-items: center; 
+}
+.Spring-Asparagus-Img{
+    grid-column-start: 1;
+    width: 248px;
+    height: 348px;
+    border-radius: 10px;
+    filter: drop-shadow(4px 4px 8px #000000);   
+}
+.Phara-and-veg-content{
+    grid-column-start: 2;
+}
+
+.Seasonal-Content2{
+    display: grid;
+    grid-template-columns: 70% 20%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px; 
+    padding-right: 10px;  
+   
+}
+.Summer-Sweet-Corn-Img{
+    grid-column-start: 2;
+    width: 248px;
+    height: 348px;
+    border-radius: 10px;
+    filter: drop-shadow(4px 4px 8px #000000);  
+}
+.Phara-and-veg-content2{
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+.Seasonal-Specialties-Heading{
+    text-decoration: underline;
+}
+
+.Seasonal-Content3{
+    padding-top: 20px;  
+    display: grid;
+    grid-template-columns: 20% 70%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Pumpkins-Img{
+    grid-column-start: 1;
+    width: 238px;
+    height: 340px;
+    border-radius: 10px;
+    filter: drop-shadow(4px 4px 8px #000000);   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
