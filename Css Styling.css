@@ -271,53 +271,6 @@ footer{
 .Mail-and-Contact {
     padding-top: 0; 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-footer{
-    background-color:var(--Light-ivory);
-    margin: 0;
-    padding: 0;
-}
-
-.Footercontent{
-    display: grid;
-    grid-template-columns: 20% 20% 20%;
-    grid-template-rows: 20% 20% 20% ;
-    justify-content: space-evenly;
-    
-}
-
-.ContactUs{
-   
-}
-.Hours{
-    grid-column-start: 3;
-    grid-template-rows: 1;
-   
-}
-.footerimg{
-    width: 45px;
-    height:50px;
-}
-.footerline{
-    border: 2px solid var(--Brown); /* Border style */
-    margin:0; /* Margin for spacing */
-
-}
-*/
-
-
 .logoandtitle{
     display: flex;
     flex-direction: row;
@@ -1198,7 +1151,25 @@ input, select, option{
     filter: drop-shadow(4px 4px 8px #000000);   
 }
 
+/*******Stylings that are related to the COSMETICS-AND-SKINCARE-PAGE*******/
+/*******Stylings that are related to the COSMETICS-AND-SKINCARE-PAGE*******/
+/*******Stylings that are related to the COSMETICS-AND-SKINCARE-PAGE*******/
+/*******Stylings that are related to the COSMETICS-AND-SKINCARE-PAGE*******/
+/*******Stylings that are related to the COSMETICS-AND-SKINCARE-PAGE*******/
+/*******Stylings that are related to the COSMETICS-AND-SKINCARE-PAGE*******/
+/*******Stylings that are related to the COSMETICS-AND-SKINCARE-PAGE*******/
+/*******Stylings that are related to the COSMETICS-AND-SKINCARE-PAGE*******/
+/*******Stylings that are related to the COSMETICS-AND-SKINCARE-PAGE*******/
+/*******Stylings that are related to the COSMETICS-AND-SKINCARE-PAGE*******/
+/*******Stylings that are related to the COSMETICS-AND-SKINCARE-PAGE*******/
+/*******Stylings that are related to the COSMETICS-AND-SKINCARE-PAGE*******/
+/*******Stylings that are related to the COSMETICS-AND-SKINCARE-PAGE*******/
+/*******Stylings that are related to the COSMETICS-AND-SKINCARE-PAGE*******/
 
+
+.SKin_Care_Products{
+
+}
 
 
 
