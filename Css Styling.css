@@ -1167,10 +1167,12 @@ input, select, option{
 /*******Stylings that are related to the COSMETICS-AND-SKINCARE-PAGE*******/
 
 
-.SKin_Care_Products{
-
+.Fiber_Shampoo_Content{
+    width: 500px;
 }
-
+.Shampoo_Img{
+    width: 50px;
+}
 
 
 
