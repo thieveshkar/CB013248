@@ -1166,13 +1166,35 @@ input, select, option{
 /*******Stylings that are related to the COSMETICS-AND-SKINCARE-PAGE*******/
 /*******Stylings that are related to the COSMETICS-AND-SKINCARE-PAGE*******/
 
-
+.Hair_Care_Products{
+    background-color: var(--Light-ivory);
+}
+.Hair_Product_Heading, .Makeup_Product_Heading{
+    text-decoration: underline;
+    
+}
 .Fiber_Shampoo_Content{
     width: 500px;
 }
+.Makup_Img_size_adjustment{
+    height: 170px;
+    width: 150px;
+
+}
 .Shampoo_Img{
+    height: 170px;
+    width: 150px;
+} 
+.Brand{
     width: 50px;
 }
+.Shampoo_Price{
+    width: 10px;
+}
+
+
+
+
 
 
 
