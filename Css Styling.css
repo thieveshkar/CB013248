@@ -1181,6 +1181,16 @@ input, select, option{
     width: 150px;
 
 }
+.Table_size{
+    width: 100px;
+}
+.Table_size2{
+    width: 100px;
+
+}
+.Table_size2{
+    width: 100px;
+}
 .Shampoo_Img{
     height: 170px;
     width: 150px;
@@ -1189,7 +1199,7 @@ input, select, option{
     width: 50px;
 }
 .Shampoo_Price{
-    width: 10px;
+    width: 80px;
 }
 
 
