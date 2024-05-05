@@ -635,10 +635,14 @@ h1 {
     height: 550px;
     display: block;
     margin: 0 auto;
+    border-radius: 10px;
+    filter: drop-shadow(4px 4px 8px #000000);
 }
 .CMB-Branch-Img{
     display: block;
     margin: 0 auto;
+    border-radius: 10px;
+    filter: drop-shadow(4px 4px 8px #000000);
 }
 
 
@@ -1181,11 +1185,21 @@ input, select, option{
     height: 170px;
     width: 150px;
 }
-.Table_size, .Table_size2{
+.Table_size {
     width: 100px;
 }
-.Table_size_2, .Table_size3{
+.Table_size2{
+    width: 150px;
+}
+.Table_size_2{
     width: 100px;
+}
+.Table_size3{
+    width: 220px;
+
+}
+.Brand_Cos_Table{
+    width: 150px;
 }
 .Shampoo_Img{
     height: 170px;
@@ -1198,7 +1212,7 @@ input, select, option{
     width: 80px;
 }
 .Shampoo_Price2{
-    width: 100px;
+    width: 120px;
 }
 .Cosmetics_Table th{
     background-color: var(--Brown);
