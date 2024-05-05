@@ -1,7 +1,7 @@
 :root{
     --Brown:rgb(85, 42, 0);
     --Light-ivory:rgb(245, 245, 245);
-    --Footer-Color:rgb(230, 230, 230);     
+    --Footer-Color:rgb(220, 220, 220);     
     --Table-Heading:rgb(215, 215, 225);
     --Table-Content:rgb(220, 220, 220);    
 }
@@ -32,7 +32,7 @@
 
 
 header{
-    background-color:var(--Light-ivory)
+    background-color:var(--Footer-Color)
 }
 
 
@@ -1170,8 +1170,7 @@ input, select, option{
     background-color: var(--Light-ivory);
 }
 .Hair_Product_Heading, .Makeup_Product_Heading{
-    text-decoration: underline;
-    
+    text-decoration: underline;  
 }
 .Fiber_Shampoo_Content{
     width: 500px;
@@ -1179,16 +1178,11 @@ input, select, option{
 .Makup_Img_size_adjustment{
     height: 170px;
     width: 150px;
-
 }
-.Table_size{
+.Table_size, .Table_size2{
     width: 100px;
 }
-.Table_size2{
-    width: 100px;
-
-}
-.Table_size2{
+.Table_size_2, .Table_size3{
     width: 100px;
 }
 .Shampoo_Img{
@@ -1201,6 +1195,21 @@ input, select, option{
 .Shampoo_Price{
     width: 80px;
 }
+.Shampoo_Price2{
+    width: 100px;
+}
+.Cosmetics_Table th{
+    background-color: var(--Brown);
+    font-family: Syne; color: #fdfeea;
+
+}
+.Cosmetics_Table td{
+    background-color:#c8aa64;
+    font-family: Syne; color: #fdfeea;
+
+}
+
+
 
 
 
