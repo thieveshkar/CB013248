@@ -1206,11 +1206,11 @@ input, select, option{
 .Cosmetics_Table td{
     background-color:#c8aa64;
     font-family: Syne; color: #fdfeea;
-
 }
-
-
-
+.Cosmetics_Table th, td{
+    border: 1px solid rgb(85, 42, 0);
+    border-radius: 10px;
+}
 
 
 
