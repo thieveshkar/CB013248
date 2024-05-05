@@ -569,9 +569,11 @@ h1 {
 }
 .Summary-Table-content table th{
     background-color:var(--Table-Heading);
+    border-radius: 10px;
 }
 .Summary-Table-content table td{
     background-color:var(--Table-Content);
+
 }
 
 /*Stylings that are realted to body section of About Us Page*/
