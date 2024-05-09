@@ -1230,14 +1230,77 @@ input, select, option{
 
 
 
+/*******Stylings that are related to the LOYALTY-PAGE*******/
+/*******Stylings that are related to the LOYALTY-PAGE*******/
+/*******Stylings that are related to the LOYALTY-PAGE*******/
+/*******Stylings that are related to the LOYALTY-PAGE*******/
+/*******Stylings that are related to the LOYALTY-PAGE*******/
+/*******Stylings that are related to the LOYALTY-PAGE*******/
+/*******Stylings that are related to the LOYALTY-PAGE*******/
+/*******Stylings that are related to the LOYALTY-PAGE*******/
+/*******Stylings that are related to the LOYALTY-PAGE*******/
+/*******Stylings that are related to the LOYALTY-PAGE*******/
+/*******Stylings that are related to the LOYALTY-PAGE*******/
+/*******Stylings that are related to the LOYALTY-PAGE*******/
+/*******Stylings that are related to the LOYALTY-PAGE*******/
+/*******Stylings that are related to the LOYALTY-PAGE*******/
 
 
 
 
+/*Stylings that are related to Seasonal Specialties Section of Vegetable Page*/
+.Loyalty-Page-Section-1.{
+    background-color: var(--Light-ivory);
+    width: 95%;
+}
+.Tier-Alignment{
+    margin: auto; /* Center the content horizontally */
+    padding: 10px; /* Add padding */
 
+}
+.Loyalty-Introduction{
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    justify-content: space-evenly;
+}
 
+.Silver{
+    background-color: #c8c8c8;
+    width: 250px;
+    height: 250px;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 30px;
+    background-image: url(Logo/Silver-Logo.png);
+}
 
+.Silver-Tier-Heading, .Gold-Tier-Heading , .Platinum-Tier-Heading {
+    text-align: center;
 
+}
+.Gold{
+    background-color: 	#bf9b30;
+    width: 250px;
+    height: 250px;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 30px;
+    background-image: url(Logo/Gold-Logo.png);
+
+}
+.Platinum{
+    background-color: #e5e4e2;
+    width: 250px;
+    height: 250px;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 30px;
+    background-image: url(Logo/Platinum-Logo.png);
+
+}
+.Vegetable-Page-Alignment{
+    
+}
 
 
 
