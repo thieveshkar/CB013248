@@ -703,7 +703,9 @@ td, th {
 
 
 .Milk-Section{
-    background-color:var(--Light-ivory);
+    background-color: var(--Light-ivory);
+     margin: 0;
+     padding: 0;
  }
 .Milk-Heading{
     padding: 20px;
@@ -774,6 +776,13 @@ td, th {
     padding: 20px;
     filter: drop-shadow(4px 4px 8px #000000);
 }
+.Curd-Img1{
+    height: 220px;
+    width: 245px;
+    padding: 20px;
+    filter: drop-shadow(4px 4px 8px #000000);
+}
+
 .Curd-Titles{
     display: flex;
     flex-direction: row;
@@ -790,6 +799,9 @@ td, th {
     text-align: center;
     border-radius: 5px;
     cursor: pointer;
+}
+.Text-Alignment{
+    padding-left: 40px;
 }
 
 
@@ -817,6 +829,7 @@ td, th {
     padding: 20px;
     filter: drop-shadow(4px 4px 8px #000000);
 }
+
 .Ghee-Titles{
     display: flex;
     flex-direction: row;
@@ -833,6 +846,12 @@ td, th {
     text-align: center;
     border-radius: 5px;
     cursor: pointer;
+}
+.Text-Alignment2{
+    padding-right: 50px;
+}
+.Text-Alignment3{
+    padding-left: 70px;
 }
 
 
