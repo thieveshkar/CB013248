@@ -1272,6 +1272,7 @@ input, select, option{
     margin: 20px;
     border-radius: 30px;
     background-image: url(Logo/Silver-Logo.png);
+    filter: drop-shadow(4px 4px 8px #000000);
 }
 
 .Silver-Tier-Heading, .Gold-Tier-Heading , .Platinum-Tier-Heading {
@@ -1286,6 +1287,7 @@ input, select, option{
     margin: 20px;
     border-radius: 30px;
     background-image: url(Logo/Gold-Logo.png);
+    filter: drop-shadow(4px 4px 8px #000000);
 
 }
 .Platinum{
@@ -1296,15 +1298,12 @@ input, select, option{
     margin: 20px;
     border-radius: 30px;
     background-image: url(Logo/Platinum-Logo.png);
+    filter: drop-shadow(4px 4px 8px #000000);
 
 }
-.Vegetable-Page-Alignment{
-    
+.Membership-Alignment{
+    width: 50%;
+    margin: 0 auto; 
 }
-
-
-
-
-
 
 
