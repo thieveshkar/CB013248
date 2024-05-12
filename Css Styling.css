@@ -1,7 +1,7 @@
 :root{
     --Brown:rgb(85, 42, 0);
     --Light-ivory:rgb(245, 245, 245);
-    --Footer-Color:rgb(230, 230, 230);     
+    --Footer-Color:rgb(220, 220, 220);     
     --Table-Heading:rgb(215, 215, 225);
     --Table-Content:rgb(220, 220, 220);    
 }
@@ -32,7 +32,7 @@
 
 
 header{
-    background-color:var(--Light-ivory)
+    background-color:var(--Footer-Color)
 }
 
 
@@ -271,53 +271,6 @@ footer{
 .Mail-and-Contact {
     padding-top: 0; 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-footer{
-    background-color:var(--Light-ivory);
-    margin: 0;
-    padding: 0;
-}
-
-.Footercontent{
-    display: grid;
-    grid-template-columns: 20% 20% 20%;
-    grid-template-rows: 20% 20% 20% ;
-    justify-content: space-evenly;
-    
-}
-
-.ContactUs{
-   
-}
-.Hours{
-    grid-column-start: 3;
-    grid-template-rows: 1;
-   
-}
-.footerimg{
-    width: 45px;
-    height:50px;
-}
-.footerline{
-    border: 2px solid var(--Brown); /* Border style */
-    margin:0; /* Margin for spacing */
-
-}
-*/
-
-
 .logoandtitle{
     display: flex;
     flex-direction: row;
@@ -616,9 +569,11 @@ h1 {
 }
 .Summary-Table-content table th{
     background-color:var(--Table-Heading);
+    border-radius: 10px;
 }
 .Summary-Table-content table td{
     background-color:var(--Table-Content);
+
 }
 
 /*Stylings that are realted to body section of About Us Page*/
@@ -680,10 +635,14 @@ h1 {
     height: 550px;
     display: block;
     margin: 0 auto;
+    border-radius: 10px;
+    filter: drop-shadow(4px 4px 8px #000000);
 }
 .CMB-Branch-Img{
     display: block;
     margin: 0 auto;
+    border-radius: 10px;
+    filter: drop-shadow(4px 4px 8px #000000);
 }
 
 
@@ -744,7 +703,9 @@ td, th {
 
 
 .Milk-Section{
-    background-color:var(--Light-ivory);
+    background-color: var(--Light-ivory);
+     margin: 0;
+     padding: 0;
  }
 .Milk-Heading{
     padding: 20px;
@@ -815,6 +776,13 @@ td, th {
     padding: 20px;
     filter: drop-shadow(4px 4px 8px #000000);
 }
+.Curd-Img1{
+    height: 220px;
+    width: 245px;
+    padding: 20px;
+    filter: drop-shadow(4px 4px 8px #000000);
+}
+
 .Curd-Titles{
     display: flex;
     flex-direction: row;
@@ -831,6 +799,9 @@ td, th {
     text-align: center;
     border-radius: 5px;
     cursor: pointer;
+}
+.Text-Alignment{
+    padding-left: 40px;
 }
 
 
@@ -858,6 +829,7 @@ td, th {
     padding: 20px;
     filter: drop-shadow(4px 4px 8px #000000);
 }
+
 .Ghee-Titles{
     display: flex;
     flex-direction: row;
@@ -874,6 +846,12 @@ td, th {
     text-align: center;
     border-radius: 5px;
     cursor: pointer;
+}
+.Text-Alignment2{
+    padding-right: 50px;
+}
+.Text-Alignment3{
+    padding-left: 70px;
 }
 
 
@@ -1198,20 +1176,153 @@ input, select, option{
     filter: drop-shadow(4px 4px 8px #000000);   
 }
 
+/*******Stylings that are related to the COSMETICS-AND-SKINCARE-PAGE*******/
+/*******Stylings that are related to the COSMETICS-AND-SKINCARE-PAGE*******/
+/*******Stylings that are related to the COSMETICS-AND-SKINCARE-PAGE*******/
+/*******Stylings that are related to the COSMETICS-AND-SKINCARE-PAGE*******/
+/*******Stylings that are related to the COSMETICS-AND-SKINCARE-PAGE*******/
+/*******Stylings that are related to the COSMETICS-AND-SKINCARE-PAGE*******/
+/*******Stylings that are related to the COSMETICS-AND-SKINCARE-PAGE*******/
+/*******Stylings that are related to the COSMETICS-AND-SKINCARE-PAGE*******/
+/*******Stylings that are related to the COSMETICS-AND-SKINCARE-PAGE*******/
+/*******Stylings that are related to the COSMETICS-AND-SKINCARE-PAGE*******/
+/*******Stylings that are related to the COSMETICS-AND-SKINCARE-PAGE*******/
+/*******Stylings that are related to the COSMETICS-AND-SKINCARE-PAGE*******/
+/*******Stylings that are related to the COSMETICS-AND-SKINCARE-PAGE*******/
+/*******Stylings that are related to the COSMETICS-AND-SKINCARE-PAGE*******/
+
+.Hair_Care_Products{
+    background-color: var(--Light-ivory);
+}
+.Hair_Product_Heading, .Makeup_Product_Heading{
+    text-decoration: underline;  
+}
+.Fiber_Shampoo_Content{
+    width: 500px;
+}
+.Makup_Img_size_adjustment{
+    height: 170px;
+    width: 150px;
+}
+.Table_size {
+    width: 100px;
+}
+.Table_size2{
+    width: 150px;
+}
+.Table_size_2{
+    width: 100px;
+}
+.Table_size3{
+    width: 220px;
+
+}
+.Brand_Cos_Table{
+    width: 150px;
+}
+.Shampoo_Img{
+    height: 170px;
+    width: 150px;
+} 
+.Brand{
+    width: 50px;
+}
+.Shampoo_Price{
+    width: 80px;
+}
+.Shampoo_Price2{
+    width: 120px;
+}
+.Cosmetics_Table th{
+    background-color: var(--Brown);
+    font-family: Syne; color: #fdfeea;
+
+}
+.Cosmetics_Table td{
+    background-color:#c8aa64;
+    font-family: Syne; color: #fdfeea;
+}
+.Cosmetics_Table th, td{
+    border: 1px solid rgb(85, 42, 0);
+    border-radius: 10px;
+}
+
+
+
+/*******Stylings that are related to the LOYALTY-PAGE*******/
+/*******Stylings that are related to the LOYALTY-PAGE*******/
+/*******Stylings that are related to the LOYALTY-PAGE*******/
+/*******Stylings that are related to the LOYALTY-PAGE*******/
+/*******Stylings that are related to the LOYALTY-PAGE*******/
+/*******Stylings that are related to the LOYALTY-PAGE*******/
+/*******Stylings that are related to the LOYALTY-PAGE*******/
+/*******Stylings that are related to the LOYALTY-PAGE*******/
+/*******Stylings that are related to the LOYALTY-PAGE*******/
+/*******Stylings that are related to the LOYALTY-PAGE*******/
+/*******Stylings that are related to the LOYALTY-PAGE*******/
+/*******Stylings that are related to the LOYALTY-PAGE*******/
+/*******Stylings that are related to the LOYALTY-PAGE*******/
+/*******Stylings that are related to the LOYALTY-PAGE*******/
 
 
 
 
+/*Stylings that are related to Seasonal Specialties Section of Vegetable Page*/
+.Loyalty-Page-Section-1.{
+    background-color: var(--Light-ivory);
+    width: 95%;
+}
+.Tier-Alignment{
+    margin: auto; /* Center the content horizontally */
+    padding: 10px; /* Add padding */
 
+}
+.Loyalty-Introduction{
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    justify-content: space-evenly;
+}
 
+.Silver{
+    background-color: #c8c8c8;
+    width: 250px;
+    height: 250px;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 30px;
+    background-image: url(Logo/Silver-Logo.png);
+    filter: drop-shadow(4px 4px 8px #000000);
+}
 
+.Silver-Tier-Heading, .Gold-Tier-Heading , .Platinum-Tier-Heading {
+    text-align: center;
 
+}
+.Gold{
+    background-color: 	#bf9b30;
+    width: 250px;
+    height: 250px;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 30px;
+    background-image: url(Logo/Gold-Logo.png);
+    filter: drop-shadow(4px 4px 8px #000000);
 
+}
+.Platinum{
+    background-color: #e5e4e2;
+    width: 250px;
+    height: 250px;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 30px;
+    background-image: url(Logo/Platinum-Logo.png);
+    filter: drop-shadow(4px 4px 8px #000000);
 
-
-
-
-
-
+}
+.Membership-Alignment{
+    width: 50%;
+    margin: 0 auto; 
+}
 
 
