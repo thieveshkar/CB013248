@@ -1326,3 +1326,278 @@ input, select, option{
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*******Css Stylings related to th Media-Query*******/
+/*******Css Stylings related to th Media-Query*******/
+/*******Css Stylings related to th Media-Query*******/
+/*******Css Stylings related to th Media-Query*******/
+/*******Css Stylings related to th Media-Query*******/
+/*******Css Stylings related to th Media-Query*******/
+/*******Css Stylings related to th Media-Query*******/
+/*******Css Stylings related to th Media-Query*******/
+/*******Css Stylings related to th Media-Query*******/
+/*******Css Stylings related to th Media-Query*******/
+/*******Css Stylings related to th Media-Query*******/
+/*******Css Stylings related to th Media-Query*******/
+/*******Css Stylings related to th Media-Query*******/
+/*******Css Stylings related to th Media-Query*******/
+
+
+
+
+
+@media screen and (min-width: 315px) and  (max-width: 767.98px) {
+    /*Css rules related to home page*/
+  .Tile-and-logo h1 {
+    font-size: 10px; 
+    padding-top: 1px;
+  }
+  .Logo-icon{
+    padding-top:0px;
+    height: 20px;
+    width:15px;
+  }
+  .Navigation-Bar {
+    padding: 0px;
+    position: absolute;
+    top:3px;
+    right: 80px;
+  }
+   .Navigation-Bar ul {
+     font-size: 5px;
+     width: 180px;
+     display: flex;
+  }
+  .Purchse-Button{
+    font-size: 5px;
+    width: 50px;
+    padding: 3px;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+    .Intro-Section h1{
+        font-size: 15px;
+    }
+
+    .Home-page-main-Image{
+        width: 350px;
+        height:175px;
+    }
+    .Intro-Message{
+        font-size: 12px;
+    }
+    .Fresh-Product-Section {
+        height: 945px;
+    }
+
+    .Fresh-Product-Section h1{
+        font-size: 15px;
+    }
+    .Fresh-Product-Section p{
+        font-size: 12px;
+    }
+    .Fresh-Products-Grid{
+        display: grid; 
+        grid-template-rows: 20% 20% 20% 20%; 
+        grid-template-columns: 50% 50%;
+        row-gap:145px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .Appleimg{
+        grid-column-start: 1;
+        grid-row-start: 1;
+        height: 220px;
+        width: 155px; 
+        border-radius: 10px;
+        filter: drop-shadow(4px 4px 8px #000000);
+       
+    }
+    .Apple{
+        position: absolute;
+        top: 1050px;
+        left: 80px;
+        font-size: 15px;
+
+    }
+    .p1{
+        position: absolute;
+        top: 1100px;
+        left: 70px;
+        font-size: 18px;
+    }
+    .Pepperimg{
+        grid-column-start: 2;
+        grid-row-start: 1;
+        height: 220px;
+        width: 155px;    
+    }
+    .Pepper{
+        position: absolute;
+        top: 1050px;
+        left: 240px;
+        font-size: 15px;
+    }
+    .p2{
+        position: absolute;
+        top: 1100px;
+        left: 240px;
+        font-size: 18px;
+    }
+    .Radishimg{
+        padding: 0px;
+        grid-column-start: 1;
+        grid-row-start: 2;
+        height: 220px;
+        width: 155px; 
+
+    }
+    .Radish{
+        position:absolute;
+        top:1390px;
+        left: 80px;
+        font-size: 15px;
+    }
+    .p3{
+        position: absolute;
+        top: 1440px;
+        left: 65px;
+        font-size: 18px;
+    }
+    .Pomegranatesimg{
+        grid-column-start: 2;
+        grid-row-start: 2;
+        height: 220px;
+        width: 155px; 
+
+    }
+    .Pomegranates{
+        position:absolute;
+        top:1390px;
+        left: 225px;
+        font-size: 15px;
+    }
+    .p4{
+        position: absolute;
+        top: 1440px;
+        left: 240px;
+        font-size: 18px;
+    }
+
+    .Specialty-Food-Section{
+        height: 700px;
+    }
+
+    .Specialty-Food-Section h1{
+        font-size: 15px;
+    }
+    .Specialty-Food-Section p{
+        font-size: 12px;
+    }
+
+    .Specialty-Food-Grid{
+        display: grid; 
+        grid-template-rows: 20% 20% 20% 20%; 
+        grid-template-columns: 50% 50%;
+        row-gap:90px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .jam{
+        grid-column-start: 1;
+        grid-row-start: 1;
+        height: 130px;
+        width: 170px; 
+        border-radius: 10px;
+        filter: drop-shadow(4px 4px 8px #000000);
+        
+    }
+    .cheese{
+        grid-column-start: 2;
+        grid-row-start: 1;
+        height: 130px;
+        width: 170px;
+    }
+    .CHOCOLATE{
+        grid-column-start: 1;
+        grid-row-start: 2;
+        height: 130px;
+        width: 170px;
+    }
+    .oliveoil{
+        grid-column-start: 2;
+        grid-row-start: 2;
+        height: 130px;
+        width: 170px;
+    }
+    .content1{
+        position: absolute;
+        top: 1880px;
+        left: 40px;
+        font-size: 18px;
+    }
+    .content2{
+        position: absolute;
+        top: 1880px;
+        left: 215px;
+        font-size: 18px;
+    }
+    .content3{
+        position: absolute;
+        top: 2070px;
+        left: 60px;
+        font-size: 17px;
+        text-align: center;
+    }
+    .content4{
+        position: absolute;
+        top: 2075px;
+        left: 255px;
+        font-size: 17px;
+    }
+    .price1{
+        position: absolute;
+        top: 1920px;
+        left: 70px;
+        font-size: 18px;
+    }
+    .price2{
+        position: absolute;
+        top: 1920px;
+        left: 250px;
+        font-size: 18px;
+    }
+    .price3{
+        position: absolute;
+        top: 2130px;
+        left: 70px;
+        font-size: 18px;
+    }
+    .price4{
+        position: absolute;
+        top: 2120px;
+        left: 255px;
+        font-size: 18px;
+    }
+
+
+}
+
+
