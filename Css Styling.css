@@ -512,6 +512,10 @@ h1 {
 .Weekly-Deal-Section {
     background-color:var(--Light-ivory);  
 }
+.Weekly-Deal-Section h1{
+    font-weight: bold;
+
+}
 .Weekly-Deal-Line-Seperation {
     border: 2px solid var(--Brown); /* Border style */
     margin: 20px 0; /* Margin for spacing */
@@ -1362,9 +1366,17 @@ input, select, option{
 
 @media screen and (min-width: 315px) and  (max-width: 767.98px) {
     /*Css rules related to home page*/
+    
+
+   
   .Tile-and-logo h1 {
     font-size: 10px; 
     padding-top: 1px;
+  }
+  .Footer-Title{
+    font-size: 10px; 
+    padding-top: 1px;
+
   }
   .Logo-icon{
     padding-top:0px;
@@ -1404,6 +1416,8 @@ input, select, option{
     }
     .Fresh-Product-Section {
         height: 945px;
+        
+        
     }
 
     .Fresh-Product-Section h1{
@@ -1596,7 +1610,71 @@ input, select, option{
         left: 255px;
         font-size: 18px;
     }
+    .Weekly-Deal-Section{
+        padding: 0px;
+    }
+    .Weekly-Deal-Section h1{
+        font-size: 15px;
 
+    }
+    .Weekly-Deal-Section h2{
+        font-size: 14px;
+
+    }
+    .Weekly-Deal-Section p{
+        font-size: 12px;
+    }
+    .Weekly-Deal-Section h3{
+        font-size:11px;
+
+    }
+    .Weekly-Deal-Section .Section-Alignment{
+        width: 95%;
+        margin: auto; /* Center the content horizontally */
+        padding: 10px; /* Add padding */
+        
+    }
+    .Shrimpimg, .salmonimg, .oysterimg {
+        height: 220px;
+        width: 185px; 
+    }
+   
+    .shrimplist, .salmonlist, .oysterlist{
+        font-size: 12px;
+
+    }
+    .socials-iconi, .socials-iconf, .socials-icont, .socials-iconTT  {
+        height: 10px;
+        width:10px;
+        padding-top:10px;
+    }
+    .Location-Icon, .Payment-Icon, .Tele-Icon, .Mail-Icon, .CARD-Icons, .CARD-Icons-American{
+        height: 10px;
+        width:10px;
+    }
+    .Location-Icon{
+        padding-top: 22px;
+    }
+    .Mail-Icon{
+        padding-top: 17px;
+    }
+    footer{
+        font-size: 12px;
+        padding: 0;
+        margin: 0;
+    }
+    .Footer-contentt{
+        display: grid;
+        grid-template-columns:30% 30% 20%;
+        grid-template-rows: 20% 20%;
+        justify-content: space-evenly;
+        height: 120px;  
+        
+    }
+    .CMB-tItLE{
+        padding-bottom: 0px;
+    }
+        
 
 }
 
