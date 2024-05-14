@@ -1372,6 +1372,8 @@ input, select, option{
   .Tile-and-logo h1 {
     font-size: 10px; 
     padding-top: 1px;
+
+        
   }
   .Footer-Title{
     font-size: 10px; 
@@ -1407,7 +1409,7 @@ input, select, option{
         font-size: 15px;
     }
 
-    .Home-page-main-Image{
+    .Home-page-main-Image {
         width: 350px;
         height:175px;
     }
@@ -1660,8 +1662,7 @@ input, select, option{
     }
     footer{
         font-size: 12px;
-        padding: 0;
-        margin: 0;
+        height: 285px; 
     }
     .Footer-contentt{
         display: grid;
@@ -1674,8 +1675,85 @@ input, select, option{
     .CMB-tItLE{
         padding-bottom: 0px;
     }
+    .Summary-Table-content table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+    
+      .Summary-Table-content table th,
+      .Summary-Table-content table td {
+        padding: 8px;
+        font-size: 14px;
+        text-align: left;
+      }
+    
+      .Summary-Table-content table th {
+        background-color: var(--Table-Heading);
+        border-radius: 10px;
+      }
+    
+      .Summary-Table-content table td {
+        background-color: var(--Table-Content);
+      }
+    
+      .Summary-Table-content table th,
+      .Summary-Table-content table td {
+        border: 1px solid #ddd;
+      }
+      .About-Us-Main-Section h1 {
+        font-size: 15px;
+      }
+      .About-Us-Main-Section p, .pp2, .pp8 {
+        font-size: 12px;
+      }
+      .About-Us-Main-Section li{
+        font-size: 12px;
+      }
+      .Branch-Images h1{
+        font-size: 15px;
+      }
+      .Branch-Images h3{
+        font-size: 13px; 
+      }
+      .Kandy-Branch-Img, .CMB-Branch-Img{
+        width: 320px;
+        height:185px;
+      }
+      .Branch-Images{
+        width:80%;
+        margin: 0; /* Center the content horizontally */
+        padding: 0px; /* Add padding */
+     }
+     .Colombo-Branch-Section{
+        display: grid;
+        grid-template-columns: 40% 100% ;
+        grid-template-rows: 40% 60%;
+        height:500px ;
+    }
+    .CMB-Branch-Message{
+        position: absolute;
+        top: 1340px;
+        padding-right: 15px;
+    }
+    .Kandy-Branch-Section{
+        display: grid;
+        grid-template-columns: 40% 100% ;
+        grid-template-rows: 40% 60%;
+        height:500px ;
         
+    }
+    .Kandy-Branch-Message{
+        position: absolute;
+        top: 2100px;
+        padding-right: 15px;
 
-}
+    }
+
+
+    }
+    
+      
+      
+
 
 
