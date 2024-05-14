@@ -1662,7 +1662,7 @@ input, select, option{
     }
     footer{
         font-size: 12px;
-        height: 285px; 
+        height: 295px; 
     }
     .Footer-contentt{
         display: grid;
@@ -1678,10 +1678,10 @@ input, select, option{
     .Summary-Table-content table {
         width: 100%;
         border-collapse: collapse;
-      }
+    }
     
-      .Summary-Table-content table th,
-      .Summary-Table-content table td {
+    .Summary-Table-content table th,
+    .Summary-Table-content table td {
         padding: 8px;
         font-size: 14px;
         text-align: left;
@@ -1689,15 +1689,14 @@ input, select, option{
     
       .Summary-Table-content table th {
         background-color: var(--Table-Heading);
-        border-radius: 10px;
+        border-radius: 15px;
       }
     
       .Summary-Table-content table td {
         background-color: var(--Table-Content);
       }
     
-      .Summary-Table-content table th,
-      .Summary-Table-content table td {
+      .Summary-Table-content table th,.Summary-Table-content table td {
         border: 1px solid #ddd;
       }
       .About-Us-Main-Section h1 {
