@@ -41,6 +41,7 @@ header{
     position: absolute;
     top: 15px ;
     right: 280px;
+    z-index: 1000;/*z-index property in CSS controls the stacking order of positioned elements*/
 }
 .Navigation-Bar ul {
     list-style: none;
@@ -49,6 +50,8 @@ header{
 .Navigation-Bar ul li {
     display: inline-block;
     position: relative;
+    
+   
 }
 
 ul li a {
@@ -56,18 +59,22 @@ ul li a {
     display: block;
     padding: 10px;
     text-decoration: none;
+   
 }
 ul li ul.dropdown li {
     display: block;
+    width: 100%;
 }
 ul li ul.dropdown {
     width: 100%;
     position:absolute;
     display: none;
     background: var(--Light-ivory);
+    z-index: 1001;
 }
 ul li:hover ul.dropdown {
     display: block;
+ 
 }
 .Logo-icon{
     padding-top: 4px;
