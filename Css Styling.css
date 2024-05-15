@@ -1371,7 +1371,7 @@ input, select, option{
 
 
 
-@media screen and (min-width: 315px) and  (max-width: 767.98px) {
+@media screen and (min-width: 315px) and  (max-width: 770px) {
     /*Css rules related to home page*/
     
 
@@ -1786,9 +1786,13 @@ input, select, option{
     }
     .Diary-Product-Intro-Section p{
         font-size: 12px;
+        text-align: center;
+    }
+    .Diary-Product-Intro-Section .Milk-Buybutton{
+        margin-left: 55px;
     }
     .Milk-Heading{
-        padding: 15px;
+        margin: 15px;
         font-weight: bold;
         text-decoration: underline;
         text-align: center;
@@ -1806,7 +1810,7 @@ input, select, option{
         flex-direction: column;
         height: 95px;
         width: 100px;
-        padding-left: 120px;
+        margin-left: 110px;
         filter: drop-shadow(4px 4px 8px #000000);
     }
     .Milk-Phara4{
@@ -1831,21 +1835,22 @@ input, select, option{
 
     }
     .Heading2{
-        padding-top: 195px;
+        margin-top: 200px;
     }
     .Heading3{
-        padding-top: 240px;
+        margin-top: 250px;
 
     }
     .Heading4{
-        padding-top: 200px;
+        margin-top: 250px;
 
     }
-    .Milk-Bottle-Img4{padding-bottom: 300px;
+    .Milk-Bottle-Img4{
+        margin-bottom: 300px;
 
     }
     .Milk-Phara2, .Milk-Phara3, .Milk-Phara4{
-        padding-top: 150px;
+        margin-top: 60px;
         
     }
     .Milk-Buybutton{
@@ -1876,7 +1881,9 @@ input, select, option{
         gap: 110px;
         padding: 10px;
     }
-    
+    .Curd-Section{
+        height: 1150px;
+    }
     .Curd-imgs img {
         max-width: 100%;
         height: auto;
@@ -1911,28 +1918,28 @@ input, select, option{
         position: absolute;
         top: 2600px;
         left: 112PX;
-        padding-top: 11px;
+        margin-top: 35px;
     }
     .Curdtxt2{
         text-align: center;
         position: absolute;
         top: 2870px;
         left: 145PX;
-        padding-top: 11px;
+        margin-top: 35px;
     }
     .Curdtxt3{
         text-align: center;
         position: absolute;
         top: 3100px;
         left: 135PX;
-        padding-top: 11px;
+        margin-top: 35px;
     }
     .Curdtxt4{
         text-align: center;
         position: absolute;
         top: 3350px;
         left: 100PX;
-        padding-top: 11px;
+        margin-top: 35px;
     }
     .Ghee-Titles {
         display: flex;
@@ -1951,30 +1958,30 @@ input, select, option{
     .Gheetxt1{
         text-align: center;
         position: absolute;
-        top: 3650px;
-        left: 145PX;
+        top: 3780px;
+        left: 135PX;
         padding-top: 11px;
 
     }
     .Gheetxt2{
         text-align: center;
         position: absolute;
-        top: 3880px;
-        left: 145PX;
-        padding-top: 11px;
+        top: 3990px;
+        left: 135PX;
+        margin-top: 25px;
     }
     .Gheetxt3{
         text-align: center;
         position: absolute;
-        top: 4120px;
-        left: 145PX;
+        top: 4220px;
+        left: 135PX;
         padding-top: 11px;
     }
     .Gheetxt4{
         text-align: center;
         position: absolute;
-        top: 4370px;
-        left: 140PX;
+        top: 4490px;
+        left: 135PX;
         padding-top: 11px;
     }
     
