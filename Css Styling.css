@@ -1272,7 +1272,7 @@ input, select, option{
 
 
 /*Stylings that are related to Seasonal Specialties Section of Vegetable Page*/
-.Loyalty-Page-Section-1.{
+.Loyalty-Page-Section-1{
     background-color: var(--Light-ivory);
     width: 95%;
 }
