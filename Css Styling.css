@@ -700,6 +700,10 @@ td, th {
     margin: 0 auto;
     filter: drop-shadow(4px 4px 8px #000000);
 }
+.Diary-Main-Heading{
+    font-weight: bold;
+    text-decoration: underline;
+}
 
 
 /*Stylings that are realted to Milk section of Diary Product Page*/
@@ -717,6 +721,7 @@ td, th {
     text-decoration: underline;
     text-align: center;
 }
+
 .Milk-Section-Alignment{
     width: 80%;
     margin: auto; /* Center the content horizontally */
@@ -834,11 +839,6 @@ td, th {
     filter: drop-shadow(4px 4px 8px #000000);
 }
 
-.Ghee-Titles{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
 .Ghee-Buybutton{
     font-family: Syne; color: var(--Light-ivory);
     font-size: 18px;
@@ -1368,12 +1368,13 @@ input, select, option{
     /*Css rules related to home page*/
     
 
-   
+    header{
+        height: 55px;
+    }
   .Tile-and-logo h1 {
     font-size: 10px; 
-    padding-top: 1px;
-
-        
+    padding-top: 5px;
+    padding-right: 0;        
   }
   .Footer-Title{
     font-size: 10px; 
@@ -1388,11 +1389,11 @@ input, select, option{
   .Navigation-Bar {
     padding: 0px;
     position: absolute;
-    top:3px;
+    top:0px;
     right: 80px;
   }
    .Navigation-Bar ul {
-     font-size: 5px;
+     font-size: 10px;
      width: 180px;
      display: flex;
   }
@@ -1747,12 +1748,216 @@ input, select, option{
         padding-right: 15px;
 
     }
-
+    .Diary-Product-Intro-Section h1{
+        font-size: 15px;
 
     }
+    .Diary-Product-Main-Img{
+        height: 150px;
+        width:300px;
+    }
+    .Diary-Product-Intro-Section p{
+        font-size: 12px;
+    }
+    .Milk-Heading{
+        padding: 15px;
+        font-weight: bold;
+        text-decoration: underline;
+        text-align: center;
+    }
+
+    .Milk-Section-Alignment{
+        width: 100%;
+        margin: auto; /* Center the content horizontally */
+        padding:0px; /* Add padding */
+        display: flex;
+        flex-direction: row;   
+    }
+    .Milk-Bottle-Img1, .Milk-Bottle-Img2, .Milk-Bottle-Img3, .Milk-Bottle-Img4{
+        display: flex;
+        flex-direction: column;
+        height: 95px;
+        width: 100px;
+        padding-left: 120px;
+        filter: drop-shadow(4px 4px 8px #000000);
+    }
+    .Milk-Phara4{
+        position: absolute;
+        top: 1880px;
+        left: 20px ;
+    }
+    .Milk-Phara1{
+        position: absolute;
+        top: 700px;
+        left: 20px ;
+    }
+    .Milk-Phara2{
+        position: absolute;
+        top: 1050px;
+        left: 20px ;
+    }
+    .Milk-Phara3{
+        position: absolute;
+        top: 1450px;
+        left: 20px ;
+
+    }
+    .Heading2{
+        padding-top: 195px;
+    }
+    .Heading3{
+        padding-top: 240px;
+
+    }
+    .Heading4{
+        padding-top: 200px;
+
+    }
+    .Milk-Bottle-Img4{padding-bottom: 300px;
+
+    }
+    .Milk-Phara2, .Milk-Phara3, .Milk-Phara4{
+        padding-top: 150px;
+        
+    }
+    .Milk-Buybutton{
+        font-family: Syne; color: var(--Light-ivory);
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: none;
+        background: var(--Brown);
+        width: 160px;
+        height: px;
+        padding: 5px;
+        text-align: center;
+        border-radius: 5px;
+        cursor: pointer;
+    }
     
-      
-      
+    .Curd-Img, .Curd-Img1{
+        height: 95px;
+        width: 100px;
+        padding: 20px;
+        filter: drop-shadow(4px 4px 8px #000000);
+    }
+    .Curd-imgs {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 110px;
+        padding: 10px;
+    }
+    
+    .Curd-imgs img {
+        max-width: 100%;
+        height: auto;
+    }
+    .Curd-Titles{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 110px;
+        padding: 10px;
+    }
+    .Curd-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px; /* Adjust gap as needed */
+        justify-items: center;
+    }
+    
+    .Curd-imgs, .Curd-Titles {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+    .Curd-Titles h3 {
+        text-align: center;
+    }
+    .Curdtxt1{
+        text-align: center;
+        position: absolute;
+        top: 2600px;
+        left: 112PX;
+        padding-top: 11px;
+    }
+    .Curdtxt2{
+        text-align: center;
+        position: absolute;
+        top: 2870px;
+        left: 145PX;
+        padding-top: 11px;
+    }
+    .Curdtxt3{
+        text-align: center;
+        position: absolute;
+        top: 3100px;
+        left: 135PX;
+        padding-top: 11px;
+    }
+    .Curdtxt4{
+        text-align: center;
+        position: absolute;
+        top: 3350px;
+        left: 100PX;
+        padding-top: 11px;
+    }
+    .Ghee-Titles {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 80px;
+    }
+    
+    .Ghee-Img {
+        height: 100px;
+        width: 105px;
+        margin-bottom: 20px;
+        padding: 20px;
+        filter: drop-shadow(4px 4px 8px #000000);
+    }
+    .Gheetxt1{
+        text-align: center;
+        position: absolute;
+        top: 3650px;
+        left: 145PX;
+        padding-top: 11px;
 
+    }
+    .Gheetxt2{
+        text-align: center;
+        position: absolute;
+        top: 3880px;
+        left: 145PX;
+        padding-top: 11px;
+    }
+    .Gheetxt3{
+        text-align: center;
+        position: absolute;
+        top: 4120px;
+        left: 145PX;
+        padding-top: 11px;
+    }
+    .Gheetxt4{
+        text-align: center;
+        position: absolute;
+        top: 4370px;
+        left: 140PX;
+        padding-top: 11px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
 
+   
+}
 
