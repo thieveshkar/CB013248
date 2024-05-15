@@ -1469,6 +1469,7 @@ input, select, option{
         top: 1050px;
         left: 80px;
         font-size: 15px;
+        text-align: center;
 
     }
     .p1{
@@ -1488,6 +1489,7 @@ input, select, option{
         top: 1050px;
         left: 240px;
         font-size: 15px;
+        text-align: center;
     }
     .p2{
         position: absolute;
@@ -1508,6 +1510,7 @@ input, select, option{
         top:1390px;
         left: 80px;
         font-size: 15px;
+        text-align: center;
     }
     .p3{
         position: absolute;
@@ -1527,6 +1530,7 @@ input, select, option{
         top:1390px;
         left: 225px;
         font-size: 15px;
+        text-align: center;
     }
     .p4{
         position: absolute;
@@ -1583,50 +1587,53 @@ input, select, option{
     }
     .content1{
         position: absolute;
-        top: 1880px;
-        left: 40px;
+        top: 1890px;
+        left: 50px;
         font-size: 18px;
+        font-size: 15px;
     }
     .content2{
         position: absolute;
-        top: 1880px;
-        left: 215px;
+        top: 1890px;
+        left: 225px;
         font-size: 18px;
+        font-size: 15px;
     }
     .content3{
         position: absolute;
-        top: 2070px;
+        top: 2085px;
         left: 60px;
         font-size: 17px;
         text-align: center;
+        font-size: 15px;
     }
     .content4{
         position: absolute;
-        top: 2075px;
-        left: 255px;
-        font-size: 17px;
+        top: 2090px;
+        left: 260px;
+        font-size: 15px;
     }
     .price1{
         position: absolute;
-        top: 1920px;
+        top: 1925px;
         left: 70px;
         font-size: 18px;
     }
     .price2{
         position: absolute;
-        top: 1920px;
+        top: 1925px;
         left: 250px;
         font-size: 18px;
     }
     .price3{
         position: absolute;
-        top: 2130px;
+        top: 2135px;
         left: 70px;
         font-size: 18px;
     }
     .price4{
         position: absolute;
-        top: 2120px;
+        top: 2125px;
         left: 255px;
         font-size: 18px;
     }
@@ -1734,7 +1741,7 @@ input, select, option{
       }
       .Kandy-Branch-Img, .CMB-Branch-Img{
         width: 320px;
-        height:185px;
+        height:200px;
       }
       .Branch-Images{
         width:80%;
@@ -1749,20 +1756,24 @@ input, select, option{
     }
     .CMB-Branch-Message{
         position: absolute;
-        top: 1340px;
-        padding-right: 15px;
+        top: 1360px;
+        padding-right: 30px;
+        text-align: center;
     }
     .Kandy-Branch-Section{
         display: grid;
         grid-template-columns: 40% 100% ;
         grid-template-rows: 40% 60%;
         height:500px ;
+        align-content: center;
+       
         
     }
     .Kandy-Branch-Message{
         position: absolute;
-        top: 2100px;
+        top: 2150px;
         padding-right: 15px;
+        text-align: center;
 
     }
     .Diary-Product-Intro-Section h1{
