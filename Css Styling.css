@@ -978,7 +978,7 @@ input, select, option{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     justify-content: space-evenly;   
-    padding-left: 70px;
+    margin-left: 70px;
 }
 .Thai-Eggplant-Img{
     grid-column-start: 1;
@@ -1008,19 +1008,11 @@ input, select, option{
     border-radius: 10px;
     filter: drop-shadow(4px 4px 8px #000000);
 }
-.Veg-Content{
-    padding-top: 15px;
-}
 .lettuce-Img, .Totmato-Img, .Carrot-Img{
     height: 5;
     width: 300px;
 }
-.Vegetables-Content2{
-    display: grid;
-    grid-template-columns: 32% 32% 32%;
-    justify-content: center;
-    padding-left: 70px;
-}
+
 .Broccoli-Img{
     grid-column-start: 1;  
     border-radius: 10px;
@@ -1066,7 +1058,7 @@ input, select, option{
     display: grid;
     grid-template-columns: 32% 32% 32%;
     justify-content: center;   
-    padding-left: 70px;
+    margin-left: 70px;
 }
 .lettuce-Img{
     grid-column-start: 1;
@@ -1083,7 +1075,7 @@ input, select, option{
     border-radius: 10px;
     filter: drop-shadow(4px 4px 8px #000000);
 }
-.Veg-Content{
+.Veg-Content1, .Veg-Content2, .Veg-Content3, .Veg-Content4 {
     padding-top: 15px;
 }
 .lettuce-Img, .Totmato-Img, .Carrot-Img{
@@ -1094,7 +1086,7 @@ input, select, option{
     display: grid;
     grid-template-columns: 32% 32% 32%;
     justify-content: center;
-    padding-left: 70px;
+    margin-left: 70px;
 }
 .Broccoli-Img{
     grid-column-start: 1;  
@@ -1984,6 +1976,270 @@ input, select, option{
         left: 135PX;
         padding-top: 11px;
     }
+    .Thai-Eggplant-Img, .Bitter-Melon-Img, .Daikon-Radish-Img, .Dragon-Img{
+        height: 220px;
+        width: 155px; 
+    }
+    .Exotic-Import-Section p{
+        font-size: 12px;
+    }
+    .Exotic-Import-Section h2{
+        font-size: 15px;
+
+    }
+    .Exotic-Import-Section h3{
+        font-size: 13px; 
+    }
+    .Vegetable-Page-Alignment{
+        width:100;
+        margin: 0; /* Center the content horizontally */
+     
+    }
+    .Vegetable-Content-Exotic{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+        margin-left: 15px;
+        height: 700px;
+    }
+    .Veg-Content1{
+        text-align: center;
+        position: absolute;
+        top: 420px;
+
+    }
+    .Veg-Content2{
+        text-align: center;
+        position: absolute;
+        top: 420px;
+        left: 220px;  
+    }
+    .Veg-Content3{
+        text-align: center;
+        position: absolute;
+        top: 780px;
+
+    }
+    .Veg-Content4 {
+        text-align: center;
+        position: absolute;
+        top: 780px;
+        left: 230px; 
+
+    }
+    .Thai-Eggplant-Img{
+        grid-column-start: 1;
+        grid-row-start: 1;
+        border-radius: 10px;
+        filter: drop-shadow(4px 4px 8px #000000);
+    }
+    .Bitter-Melon-Img{
+        grid-column-start: 2;
+        grid-row-start: 1;
+        border-radius: 10px;
+        filter: drop-shadow(4px 4px 8px #000000);
+
+    }
+    .Daikon-Radish-Img{
+        grid-column-start: 1;
+        grid-row-start: 2;
+        border-radius: 10px;
+        filter: drop-shadow(4px 4px 8px #000000);
+
+    } 
+    .Dragon-Img{
+        grid-column-start: 2;
+        grid-row-start: 2;
+        border-radius: 10px;
+        filter: drop-shadow(4px 4px 8px #000000);
+
+    }
+    .Fresh-Produce-Section-Veg h2{
+        font-size: 15px;
+
+    }
+    .Fresh-Produce-Section-Veg p{
+        font-size: 12px;
+
+    }
+    .lettuce-Img, .Totmato-Img, .Carrot-Img{
+        height: 155px;
+        width: 185px;
+    }
+    .Vegetable-Content{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 32% 32% 32%;
+        justify-content: center;
+        gap: 45px;  
+        row-gap: 90px; 
+        margin-left: 28px;
+        margin-right: 45px;
+    }
+    .Vegetable-Content h3{
+        font-size: 13px; 
+
+    }
+    .lettuce-Img{
+        grid-column-start: 1;
+        grid-row-start: 1;
+        border-radius: 10px;
+        filter: drop-shadow(4px 4px 8px #000000);
+    }
+    .Totmato-Img{
+        grid-column-start: 2;
+        grid-row-start: 1;
+        border-radius: 10px;
+        filter: drop-shadow(4px 4px 8px #000000);
+    }
+    .Carrot-Img{
+        grid-column-start: 1;
+        grid-row-start: 2;
+        border-radius: 10px;
+        filter: drop-shadow(4px 4px 8px #000000);
+    }
+
+    .Vegetables-Content2 img{
+        height: 220px;
+        width: 155px; 
+    }
+    .Vegetables-Content2{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+        gap: 35px;
+        margin-left: 30px;
+        margin-top: 15px;
+        
+        
+    }
+    .Broccoli-Img{
+        grid-column-start: 1;
+        grid-row-start: 1;
+        border-radius: 10px;
+        filter: drop-shadow(4px 4px 8px #000000);
+    }
+    .BellPepper-Img{
+        grid-column-start: 2;
+        grid-row-start: 1;
+        border-radius: 10px;
+        filter: drop-shadow(4px 4px 8px #000000);
+    }
+    .Cucumbers-Img{
+        grid-column-start: 1;
+        grid-row-start: 2;
+        border-radius: 10px;
+        filter: drop-shadow(4px 4px 8px #000000);
+
+    }
+    .Veg-Content2-1{
+        position: absolute;
+        top: 1210px;
+        left: 55px;
+        text-align: center;
+        
+    }
+    .Veg-Content2-2{
+        position: absolute;
+        top: 1210px;
+        left: 270px;
+        text-align: center;
+    }
+    .Veg-Content2-3{
+        position: absolute;
+        top: 1460px;
+        left: 55px;
+        text-align: center;
+    }
+    .Vegetables-Content2 {
+        height: 700px;
+    }
+    .Vegetables-Content2 h3{
+        font-size: 13px; 
+
+    }
+    .Veg-Content3-1{
+        position: absolute;
+        top: 1790px;
+        left: 45px;
+        text-align: center;
+    }
+    .Veg-Content3-2{
+        position: absolute;
+        top: 1790px;
+        left: 250px;
+        text-align: center;
+    }
+    .Veg-Content3-3{
+        position: absolute;
+        top: 2160px;
+        left: 35px;
+        text-align: center;
+    }
+    .Seasonal-Specialties-Section h2{
+        font-size: 15px;
+    }
+    .Seasonal-Specialties-Section  p{
+        font-size: 12px;
+
+    }
+    .Spring-Asparagus-Img, .Summer-Sweet-Corn-Img, .Pumpkins-Img{
+        height: 220px;
+        width: 155px; 
+    }
+    .Seasonal-Content1{
+        padding-top: 0px;  
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-content: center;
+        align-items: center; 
+    }
+    .Spring-Asparagus-Img{
+        grid-column-start: 1;
+        border-radius: 10px;
+        filter: drop-shadow(4px 4px 8px #000000);   
+        margin-bottom: 95px;
+    }
+    .Phara-and-veg-content{
+        grid-column-start: 2;
+    }
+    
+    .Seasonal-Content2{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px; 
+        padding-right: 10px;  
+       
+    }
+    .Summer-Sweet-Corn-Img{
+        grid-column-start: 2;
+        border-radius: 10px;
+        filter: drop-shadow(4px 4px 8px #000000);  
+        margin-left: 45px;
+        margin-bottom: 95px;
+    }
+    .Phara-and-veg-content2{
+        grid-column-start: 1;
+        grid-row-start: 1;
+    }
+    
+    .Seasonal-Content3{
+        padding-top: 20px;  
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .Pumpkins-Img{
+        grid-column-start: 1;
+        border-radius: 10px;
+        filter: drop-shadow(4px 4px 8px #000000);   
+        margin-bottom: 75px;
+    }
+
     
     
     
