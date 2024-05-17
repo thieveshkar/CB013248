@@ -2239,6 +2239,28 @@ input, select, option{
         filter: drop-shadow(4px 4px 8px #000000);   
         margin-bottom: 75px;
     }
+    .Hair_Care_Products h3{
+        font-size: 15px;
+    }
+    .Cosmetics_Table {
+        font-size: 13px;
+        width: 100%;
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    
+
+    .Cosmetics_Table th, .Cosmetics_Table td {
+        white-space: nowrap; /* Prevent content from wrapping within cells */
+    }
+    .Product_Details {
+        width: 50px; 
+    }
+
+}
+   
+    
 
     
     
