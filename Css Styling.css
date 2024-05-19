@@ -1271,11 +1271,12 @@ input, select, option{
 
 
 /*Stylings that are related to Seasonal Specialties Section of Vegetable Page*/
-.Loyalty-Page-Section-1{
+.Loyalty-Page-Section-1, .Tier-Detail, .Membership-Form{
     background-color: var(--Light-ivory);
-    width: 95%;
+   
 }
 .Tier-Alignment{
+    background-color: var(--Light-ivory);
     margin: auto; /* Center the content horizontally */
     padding: 10px; /* Add padding */
 
@@ -2258,23 +2259,6 @@ input, select, option{
         width: 50px; 
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     .Order-Page-Intro-Section {
         height: auto;
         background-size: cover;
@@ -2321,7 +2305,43 @@ input, select, option{
         margin: 20px auto;
         display: block;
     }
-
+    .Loyalty-Introduction {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Silver, .Gold, .Platinum {
+        width: 80%;
+        height: auto;
+        padding: 20px;
+        margin: 10px 0;
+        border-radius: 20px;
+        background-size: cover;
+        background-position: center;
+    }
+    .Silver-Tier-Heading, .Gold-Tier-Heading, .Platinum-Tier-Heading {
+        font-size: 24px;
+        text-align: center;
+    }
+    .Silver h4, .Gold h4, .Platinum h4 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .Silver ul, .Gold ul, .Platinum ul {
+        padding-left: 20px;
+    }
+    .Silver ul li, .Gold ul li, .Platinum ul li {
+        font-size: 16px;
+    }
+    .Tier-Alignment h2, h3{
+       font-size: 15px; 
+    }
+    .Tier-Alignment p {
+        font-size: 12px; 
+    }
+    .Tier-Alignment ul li, form {
+        font-size: 12px; 
+    }
 
 }
    
