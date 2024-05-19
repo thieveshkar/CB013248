@@ -2258,6 +2258,71 @@ input, select, option{
         width: 50px; 
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .Order-Page-Intro-Section {
+        height: auto;
+        background-size: cover;
+    }
+    .Prime-Logo-and-Title {
+        display: block;
+        text-align: center;
+        padding-top: 20px;
+        padding-left: 0;
+   
+    }
+    .Prime-Logo-and-Title h1{
+        font-size: 35px;
+    }
+    
+    .Brand-IMG {
+        height: 60px;
+        margin: 0 auto;
+    }
+    .Brand-Title {
+        font-size: 50px;
+        margin-top: 10px;
+    }
+
+    .Selection-Form {
+        width: 95%;
+        padding: 5px;
+    }
+    .containercenter {
+        width: 100%;
+        margin: 0 auto;
+    }
+    form {
+        display: block;
+    }
+    label, input, select {
+        display: block;
+        width: 90%;
+        margin: 5px auto;
+    }
+    .Place-Order-Button {
+        width: 90%;
+        padding: 10px;
+        margin: 20px auto;
+        display: block;
+    }
+
+
 }
    
     
