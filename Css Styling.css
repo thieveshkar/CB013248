@@ -941,7 +941,7 @@ label{
     grid-column-start: 1;
     font-weight: bold;
 }
-input, select, option{
+input, select, option, textarea{
     grid-column-start: 2;
     background-color:transparent;
     width: 350px;
