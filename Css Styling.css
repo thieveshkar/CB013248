@@ -1194,7 +1194,7 @@ input, select, option{
 /*******Stylings that are related to the COSMETICS-AND-SKINCARE-PAGE*******/
 /*******Stylings that are related to the COSMETICS-AND-SKINCARE-PAGE*******/
 
-.Hair_Care_Products{
+.Hair_Care_Products, .Makeup_Products{
     background-color: var(--Light-ivory);
 }
 .Hair_Product_Heading, .Makeup_Product_Heading{
@@ -2241,6 +2241,9 @@ input, select, option{
         margin-bottom: 75px;
     }
     .Hair_Care_Products h3{
+        font-size: 15px;
+    }
+    .Makeup_Products h3{
         font-size: 15px;
     }
     .Cosmetics_Table {
