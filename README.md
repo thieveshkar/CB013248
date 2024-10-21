@@ -29,7 +29,6 @@ The web application consists of the following pages:
 - **Icons**: Icon files used throughout the application.
 - **Logo**: Logo files for branding.
 - **Photos**: Image assets for the website.
-- **Content Sources.txt**: References and sources for content used in the project.
 - **Css Styling.css**: External stylesheet for the application.
 
 ## Technologies Used
